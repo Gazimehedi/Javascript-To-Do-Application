@@ -21,7 +21,7 @@
 	font-weight: bold;
 }
 .input input{
-	padding: 5px;
+	padding: 8px;
 }
 .input button{
 	padding: 4px 15px;
@@ -52,7 +52,8 @@ hr{
 	text-align: left;
 }
 input[type='checkbox']{
-	padding:5px;
+	width:12px;
+	height:12px;
 	margin-right: 5px;
 }
 .dlbtn{
