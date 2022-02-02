@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ToDo Application</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+	<div class="block">
+		<!-- app title -->
+		<h2>To Do Application</h2>
+		<!-- Data input from -->
+		<div class="input">
+			<form id="frm" action="">
+			<p>Add New Task <input type="text" id="createtask"><button id="createbtn" type="submit">Add Task</button></p>
+			</form>
+		</div>
+		<!-- task items -->
+		<div class="task-item">
+			<!-- incomplete task item -->
+			<div class="block-item">
+			<h2>Incomplete Task</h2>
+			<hr>
+			<ul id="todoincul">
+				<li><input type="checkbox"><label>InComplete Task 1</label></li>
+				<li><input type="checkbox"><label>InComplete Task 2</label></li>
+				<li><input type="checkbox"><label>InComplete Task 3</label></li>
+			</ul>
+		</div>
+		<!-- complete task item -->
+		<div class="block-item">
+			<h2>Complete Task</h2>
+			<hr>
+			<ul id="todocul">
+				<li><label>Complete Task</label> <button class="dlbtn">Delete</button></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
